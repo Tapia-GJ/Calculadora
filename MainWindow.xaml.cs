@@ -210,5 +210,12 @@ namespace CalculadoraWPF
             double.TryParse(number[1], out double n2);
             return Math.Round(n1 % n2, 12).ToString();
         }
+        private string dvd()
+        {
+            string[] number = Screen.Text.Split('-');
+            double.TryParse(number[0], out double n1);
+            double.TryParse(number[1], out double n2);
+            return Math.Round(n1 - n2, 12).ToString();
+        }
     }
 }
