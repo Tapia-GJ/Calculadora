@@ -217,5 +217,7 @@ namespace CalculadoraWPF
             double.TryParse(number[1], out double n2);
             return Math.Round(n1 - n2, 12).ToString();
         }
+
+        //CAMBIO
     }
 }
